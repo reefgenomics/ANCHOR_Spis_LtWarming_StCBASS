@@ -168,7 +168,7 @@ for (i in 1:dim(seqtab.nochim)[2]) {
 #### Create and write out a fasta of our final ASV seqs
 
 asv_fasta <- c(rbind(asv_headers, asv_seqs))
-write(asv_fasta, "/home/maischt/2023.01_spis_OWCBASS_16S/ASVs.fa")
+write(asv_fasta, "output directory")
 
 #### ASV count table
 
